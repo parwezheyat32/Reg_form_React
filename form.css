@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+}
+
+header{
+    font-size:1rem;
+    margin:0px 0px 105px 0px;
+}
+
+#formData{
+    border:2px solid rebeccapurple;
+    height:250px;
+    border-radius:10px;
+    box-shadow:10px 10px rebeccapurple;
+    
+    
+    
+}
+
+
+label{
+    margin-top:7px;
+    margin-left:8px;
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction: row;
+    width:90px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+    
+}
+/* 7065425087 constumer care no. 2150rs */
+
+.input{
+    margin-top:10px;
+    /* border:2px solid rgb(90, 199, 0); */
+    display:flex;
+    width:200px;
+    justify-content:center;
+    position:relative;
+    left:210px;
+    height:25px;
+    
+    
+}
+.input input{
+    border-radius:14px;
+    /* border:2px solid rgb(90, 199, 0); */
+    width:100%;
+    padding-left: 10px;
+    
+}
+.gender, .male ,.female{
+    position: relative;
+    left: 90px;
+    top:4px;
+    justify-content: end;
+    display: flex;
+    width: 50%;
+    
+}
+
+#address{
+    width:100%;
+    padding-left:11px;
+    
+    border-radius:14px;
+    
+}
+.submit,.reset{
+    border:2px solid rgb(90, 199, 0);
+    margin-top:19px;
+    margin-right:5px;
+    padding:5px;
+    width:80px;
+    height: 40px;
+    
+}
+.submit:hover{
+    background-color: black;
+    color:white;
+}
+.reset:hover{
+    background-color: black;
+    color:white;
+}
+
